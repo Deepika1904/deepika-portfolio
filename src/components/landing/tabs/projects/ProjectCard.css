@@ -1,0 +1,64 @@
+.project-card {
+  margin-bottom: 2.5rem;
+  animation: fadeIn 0.3s ease-in-out;
+  font-family: "Courier New", monospace;
+  color: #d3d3d3;
+}
+
+.terminal-line {
+  color: #00ff90;
+  margin-bottom: 8px;
+}
+
+.project-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.project-image {
+  width: 200px;
+  height: 100px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 2px solid #d3d3d3;
+  margin-top: 20px;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-name {
+  color: #602e9d;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.project-desc {
+  color: #af93d1;
+  margin-bottom: 8px;
+  max-width: 400px;
+}
+
+.project-tech {
+  display: flex;
+  gap: 10px;
+  font-size: 1.2rem;
+}
+
+.tech-icon {
+  color: #602e9d;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.tech-icon:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

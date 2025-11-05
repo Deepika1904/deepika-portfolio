@@ -1,0 +1,42 @@
+.experience-section {
+  font-family: "Courier New", monospace;
+  font-size: 1rem;
+}
+
+.file-list {
+  list-style: none;
+  padding: 0;
+}
+
+.file-item {
+  cursor: pointer;
+  color: #602e9d;
+  transition: color 0.2s;
+  margin-bottom: 10px;
+}
+
+.file-item:hover {
+  color: #af93d1;
+}
+
+.job-details {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.file-content {
+  margin: 12px 0;
+  color: #602e9d;
+  white-space: pre-line; /* preserves line breaks if needed */
+
+}
+
+.back-link:hover {
+  color: #ffffff;
+}
+.experience-section {
+  animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

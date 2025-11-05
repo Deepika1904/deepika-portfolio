@@ -1,0 +1,33 @@
+.tab-buttons {
+  background-color: #1f2022;
+  display: flex;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #94a3b8;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  border-right: 1px solid #334155;
+  transition: all 0.2s ease;
+}
+
+.tab-btn:last-child {
+  border-right: none;
+}
+
+.tab-btn:hover {
+  background-color: #363846;
+  color: #e2e8f0;
+}
+
+.tab-btn.active {
+  background-color: #3f4150;
+  color: #fff;
+  border-bottom: 5px solid #04070e;
+}

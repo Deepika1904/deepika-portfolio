@@ -1,0 +1,48 @@
+
+
+.terminal-line {
+  color: #b5b6ba;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 1rem;
+  font-family: "Courier New", monospace;
+  font-size: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.contact-icon {
+  color: #602e9d;
+  font-size: 1.1rem;
+}
+
+.contact-item a,
+.contact-item span {
+  color: #602e9d;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact-item a:hover {
+  color: #af93d1;
+}
+
+/* Optional: fade-in animation */
+.contact-terminal {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

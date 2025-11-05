@@ -1,0 +1,41 @@
+.navigation {
+  background-color: #3f4150;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid #334155;
+}
+
+.three-dots span {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.red-dot { background-color: #FF605C; }
+.yellow-dot { background-color: #FFBD44; }
+.green-dot { background-color: #00CA4E; }
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.folder-icon {
+  color: #4dc6f8; /* macOS blue folder */
+  font-size: 14px;
+}
+
+.nav-text {
+  color: #b5b6ba;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-size: 14px;
+}

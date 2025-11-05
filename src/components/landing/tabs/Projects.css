@@ -1,0 +1,35 @@
+.projects-section {
+  font-family: "Courier New", monospace;
+  color: #00ff90;
+  font-size: 1rem;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+}
+
+.project-file {
+  cursor: pointer;
+  color: #602e9d;
+  transition: color 0.2s;
+  margin-bottom: 10px;
+}
+
+.project-file:hover {
+  color: #af93d1;
+}
+
+.back-link {
+  color: #b5b6ba;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.projects-section {
+  animation: fadeIn 1s ease-in;
+}
+
+.back-link:hover {
+  color: #ffffff;
+}

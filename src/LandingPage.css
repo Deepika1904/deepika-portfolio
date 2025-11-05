@@ -1,0 +1,39 @@
+.landing-page {
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(at top left, #0a0f1f, #000),
+              radial-gradient(at bottom right, #1a1f3b, #000);
+  background-blend-mode: screen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.retro-browser {
+  position: relative;
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+  background-color: #04070e; 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.browser-body {
+  height: calc(100% - 35px); 
+  padding: 1rem;
+}
+
+.prompt-text {
+  color: #00ff7f; /* terminal green */
+  font-weight: 500;
+  font: "SF Mono Regular"; 
+}
+
+.terminal-content {
+  flex-grow: 1;
+  margin-top: 1rem;
+    color: #e0e0e0; /* soft white text */
+}

@@ -1,0 +1,19 @@
+.job-details {
+  animation: fadeIn 0.3s ease-in-out;
+  font-family: "Courier New", monospace;
+  color: #d3d3d3;
+}
+
+.terminal-line {
+  color: #00ff90;
+  margin-bottom: 8px;
+}
+
+.file-content {
+  margin: 12px 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
