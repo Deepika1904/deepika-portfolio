@@ -1,16 +1,28 @@
-# React + Vite
+# Deepika Vempati — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio!  
+This project showcases my work, experience, and creative projects!
 
-Currently, two official plugins are available:
+<img width="1396" height="838" alt="Screenshot 2025-11-05 at 1 36 46 PM" src="https://github.com/user-attachments/assets/a616ad24-ee78-448d-a171-e55d2790de43" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ **React** 
+- 🎨 **CSS** 
+- 🧠 **Vite** 
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started (Run Locally)
+
+You can run this project on your local machine to explore or modify it.
+
+### Clone the repository, install dependencies, & start development server
+
+```bash
+git clone https://github.com/Deepika1904/deepika-portfolio.git
+cd deepika-portfolio
+npm install
+npm run dev
+
